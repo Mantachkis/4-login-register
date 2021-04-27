@@ -1,29 +1,59 @@
 body
     {
         display: inline-block;
+        margin-top: 100px;
         background-color: #044F90;
         font-family: monospace;
         color: white;
         width:100%
     }
-body>h1
+.container
     {
+        
+        display: inline-block;
+        width: 600px;
+        margin-left: calc((100% - 600px) / 2);
+        
+    }
+.top-text
+    {   width: 100%;
+        display: inline-block;
         text-transform: capitalize;
         text-align: center;
         font-size: 35px;
     }
-div
+.bottom-text
+    {   
+    width: 100%;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+  
+    }
+.left-column
     {
-        display: inline-block;
-        width: 60%;
-        margin-left: 20%;
+    display: inline-block;
+        width: 47%;
+        text-align: center;
+        background-color: violet;
        
     }
-form
+.form-left
     {
         display: inline-block;
-        background-image: url(./img/kalnai.jpg);
-        background-size: cover;
-        width: 30%;
-        height: 80%;
+       
+        
+        
+     
     } 
+.right-column{
+  float: right;
+    width: 47%;
+    text-align: center;
+    background-color: wheat;
+
+}
+.form-right{
+    display: inline-block;
+
+}
