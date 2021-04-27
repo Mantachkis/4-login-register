@@ -1,7 +1,7 @@
 body
     {
         display: inline-block;
-        margin-top: 100px;
+        
         background-color: #044F90;
         font-family: monospace;
         color: white;
@@ -9,10 +9,10 @@ body
     }
 .container
     {
-        
+        margin-top: 50px;
         display: inline-block;
-        width: 600px;
-        margin-left: calc((100% - 600px) / 2);
+        width: 700px;
+        margin-left: calc((100% - 700px) / 2);
         
     }
 .top-text
@@ -24,6 +24,7 @@ body
     }
 .bottom-text
     {   
+    margin-top: 50px;
     width: 100%;
     display: inline-block;
     text-transform: capitalize;
@@ -33,6 +34,7 @@ body
 .left-column
     {
     display: inline-block;
+    height: 400px;
         width: 47%;
         text-align: center;
         background-color: violet;
@@ -47,6 +49,7 @@ body
      
     } 
 .right-column{
+    height: 400px;
   float: right;
     width: 47%;
     text-align: center;
@@ -56,4 +59,29 @@ body
 .form-right{
     display: inline-block;
 
+}
+.header-form{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.input-field{
+    display: inline-block;
+    text-align: center;
+    border:none;
+    background-color: transparent;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 50px 10px 50px;
+    border-bottom: solid white;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.link{
+    display: inline-block;
+
+}
+.button{
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
+    margin: 10px 20px 10px 20px;
 }
